@@ -1,9 +1,20 @@
-
 # 🧸 Maven Fuzzy Factory - E-commerce Traffic, Conversion & Revenue Analytics
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Status](https://img.shields.io/badge/Audit-Net_Revenue_Audited-emerald?style=for-the-badge)
 
 An executive-level data analytics project evaluating web traffic, conversion funnels, marketing channel performance, and monetization efficiency for **Maven Fuzzy Factory** (an e-commerce retailer). 
 
 This project features an automated Python data pipeline, net revenue financial auditing (incorporating refunds), and a mobile-optimized **Interactive HTML Executive Dashboard** (`fuzzy_factory_report.html`).
+
+---
+
+### 🖥️ Interactive Dashboard Preview
+
+![Maven Fuzzy Factory Executive Dashboard Demo](assets/dashboard-demo.gif)
 
 ---
 
@@ -18,6 +29,8 @@ Over a 3-year operating period (**April 2012 – February 2015**), the platform 
 - **Net Average Order Value (AOV):** `$57.35` *(Evolved from $49.16 to $63.12)*
 - **Net Revenue Per Session (RPS):** `$3.92` *(Scaled from $1.57 to $5.28)*
 
+![KPIs](assets/00-KPIs.png)
+
 ---
 
 ## 🎯 Key Business Questions & Strategic Insights
@@ -26,18 +39,32 @@ Over a 3-year operating period (**April 2012 – February 2015**), the platform 
 - **Insight:** Traffic and orders demonstrated exponential growth. Monthly sessions expanded from **1,879** to peak at **29,722**, while monthly orders grew from **60** to **2,314**. 
 - **Methodology Note:** Data line trends exclude partial cutoff months (March 2012 & March 2015) to eliminate false "cliff drop" visualization effects.
 
+![Sessions and Order Volume Trend](assets/01-sessions-orders-trend.png)
+
+---
+
 ### 2. What is the session-to-order conversion rate? How has it trended?
 - **Insight:** CVR more than doubled over the platform lifecycle—rising from **3.19%** in early 2012 to **8.7%** in early 2015.
 - **Drivers:** Continuous conversion funnel optimization, mobile UI improvements, and cross-selling product line expansions.
+
+![Conversion Rate Trend](assets/02-conversion-rate-trend.png)
+
+---
 
 ### 3. Which marketing channels have been most successful?
 - **Volume Leader:** `gsearch (nonbrand)` is the primary acquisition engine, generating **$1,074,110 Net Revenue** (58.0% of total company revenue).
 - **High-Intent Efficiency:** Brand search channels (`gsearch brand` and `bsearch brand`) achieved industry-leading conversion rates exceeding **8.5%**.
 - **Compounding Brand Equity:** Unpaid channels (`Direct Type-In` and `Organic Search`) generated combined net revenues exceeding **$355,000**, reflecting strong brand retention.
 
+![Marketing Channels Performance](assets/03-marketing-channels-performance.png)
+
+---
+
 ### 4. How has revenue per order (AOV) and revenue per session (RPS) evolved?
 - **AOV Growth:** Net Average Order Value grew from **$49.16** to **$63.12**, accelerated by adding product cross-sells and bundles.
 - **RPS Growth:** Net Revenue Per Session surged from **$1.57** to **$5.28**, proving compounding monetization efficiency for every incoming site visitor.
+
+![AOV and RPS Dual Axis Growth](assets/04-aov-rps-growth.png)
 
 ---
 
@@ -45,6 +72,13 @@ Over a 3-year operating period (**April 2012 – February 2015**), the platform 
 
 ```text
 .
+├── assets/                          # Dashboard screenshots and GIF demos
+│   ├── dashboard-demo.gif
+│   ├── 00-KPIs.png
+│   ├── 01-sessions-orders-trend.png
+│   ├── 02-conversion-rate-trend.png
+│   ├── 03-marketing-channels-performance.png
+│   └── 04-aov-rps-growth.png
 ├── extracted_files/
 │   └── Maven+Fuzzy+Factory/
 │       ├── orders.csv
