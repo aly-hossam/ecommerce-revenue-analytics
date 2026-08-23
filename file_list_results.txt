@@ -1,0 +1,20 @@
+=== File Survey Report: /root/Desktop/Project_4 ===
+
+[File] a.py
+[File] Maven+Fuzzy+Factory.zip
+   └── [ZIP Contents]:
+       ├── maven_fuzzy_factory_data_dictionary.csv
+       ├── orders.csv
+       ├── order_items.csv
+       ├── order_item_refunds.csv
+       ├── products.csv
+       ├── website_pageviews.csv
+       ├── website_sessions.csv
+[File] generate_html_report.py
+[File] extracted_files/Maven+Fuzzy+Factory/maven_fuzzy_factory_data_dictionary.csv
+[File] extracted_files/Maven+Fuzzy+Factory/orders.csv
+[File] extracted_files/Maven+Fuzzy+Factory/order_items.csv
+[File] extracted_files/Maven+Fuzzy+Factory/order_item_refunds.csv
+[File] extracted_files/Maven+Fuzzy+Factory/products.csv
+[File] extracted_files/Maven+Fuzzy+Factory/website_pageviews.csv
+[File] extracted_files/Maven+Fuzzy+Factory/website_sessions.csv

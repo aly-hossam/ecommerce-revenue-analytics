@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Virtual Environment (if any)
+venv/
+env/
+
+Maven+Fuzzy+Factory.zip
