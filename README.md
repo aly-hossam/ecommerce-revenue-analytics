@@ -5,6 +5,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 ![Status](https://img.shields.io/badge/Audit-Net_Revenue_Audited-emerald?style=for-the-badge)
+[![Live Interactive Dashboard](https://img.shields.io/badge/🚀_Live_Demo-View_Interactive_Dashboard-emerald?style=for-the-badge&logo=githubpages&logoColor=white)](https://aly-hossam.github.io/ecommerce-revenue-analytics/)
 
 An executive-level data analytics project evaluating web traffic, conversion funnels, marketing channel performance, and monetization efficiency for **Maven Fuzzy Factory** (an e-commerce retailer). 
 
