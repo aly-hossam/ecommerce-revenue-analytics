@@ -1,21 +1,51 @@
-# 🧸 Maven Fuzzy Factory - E-commerce Traffic, Conversion & Revenue Analytics
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
-![Status](https://img.shields.io/badge/Audit-Net_Revenue_Audited-emerald?style=for-the-badge)
-[![Live Interactive Dashboard](https://img.shields.io/badge/🚀_Live_Demo-View_Interactive_Dashboard-emerald?style=for-the-badge&logo=githubpages&logoColor=white)](https://aly-hossam.github.io/ecommerce-revenue-analytics/)
+  # 🧸 Maven Fuzzy Factory — E-Commerce Revenue & Traffic Analytics
+  ### Audited Financial Pipeline & Mobile-Optimized Executive HTML Dashboard
+  
+  [![Live Interactive Dashboard](https://img.shields.io/badge/🚀_LIVE_DEMO-Launch_Interactive_Dashboard-emerald?style=for-the-badge&logo=githubpages&logoColor=white)](https://aly-hossam.github.io/ecommerce-revenue-analytics/)
 
-An executive-level data analytics project evaluating web traffic, conversion funnels, marketing channel performance, and monetization efficiency for **Maven Fuzzy Factory** (an e-commerce retailer). 
+  <p align="center">
+    <a href="#-executive-summary--key-kpis">Executive Summary</a> •
+    <a href="#-key-business-questions--strategic-insights">Strategic Insights</a> •
+    <a href="#-financial-auditing--data-pipeline">Financial Auditing</a> •
+    <a href="#-repository-architecture">Architecture</a> •
+    <a href="#-how-to-run-the-project">How to Run</a>
+  </p>
 
-This project features an automated Python data pipeline, net revenue financial auditing (incorporating refunds), and a mobile-optimized **Interactive HTML Executive Dashboard** (`fuzzy_factory_report.html`).
+  <!-- Badges -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python_3.8+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Chart.js_v4-FF6384?style=flat-square&logo=chart.js&logoColor=white" alt="Chart.js" />
+    <img src="https://img.shields.io/badge/Financial_Audit-Net_Revenue_Audited-emerald?style=flat-square" alt="Financial Audit" />
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
+  </p>
+
+</div>
 
 ---
 
-### 🖥️ Interactive Dashboard Preview
+## 💡 Project Overview
 
-![Maven Fuzzy Factory Executive Dashboard Demo](assets/dashboard-demo.gif)
+An executive-level data analytics pipeline evaluating web traffic, conversion funnels, marketing channel ROI, and unit economics for **Maven Fuzzy Factory** (an e-commerce retailer). 
+
+This project features an automated Python data pipeline, net revenue financial auditing (deducting customer refunds), and a mobile-optimized **Interactive HTML Executive Dashboard** (`fuzzy_factory_report.html`).
+
+---
+
+## 🖥️ Interactive Dashboard Demo
+
+<div align="center">
+  <a href="https://aly-hossam.github.io/ecommerce-revenue-analytics/">
+    <img src="assets/dashboard-demo.gif" width="100%" alt="Maven Fuzzy Factory Dashboard Demo" style="border-radius: 10px; border: 1px solid #30363d;" />
+  </a>
+
+  <br/><br/>
+
+  [![Launch Live Dashboard](https://img.shields.io/badge/▶_LAUNCH_INTERACTIVE_DASHBOARD-Maven_Fuzzy_Factory-emerald?style=for-the-badge&logoColor=white)](https://aly-hossam.github.io/ecommerce-revenue-analytics/)
+</div>
 
 ---
 
@@ -23,57 +53,77 @@ This project features an automated Python data pipeline, net revenue financial a
 
 Over a 3-year operating period (**April 2012 – February 2015**), the platform scaled significantly across all primary commercial metrics:
 
-- **Total Website Sessions:** `472,871`
-- **Total Completed Orders:** `32,313`
-- **Net Audited Revenue:** `$1,853,171` *(Gross Revenue: $1,938,510 less $85,338 refunds / 4.4% refund rate)*
-- **Lifetime Conversion Rate (CVR):** `6.83%` *(Grew from 3.19% to peak at 8.7%)*
-- **Net Average Order Value (AOV):** `$57.35` *(Evolved from $49.16 to $63.12)*
-- **Net Revenue Per Session (RPS):** `$3.92` *(Scaled from $1.57 to $5.28)*
+<div align="center">
+  <img src="assets/00-KPIs.png" width="100%" alt="Key Performance Indicators" style="border-radius: 10px; border: 1px solid #30363d;" />
+</div>
 
-![KPIs](assets/00-KPIs.png)
+<br/>
+
+### 🎯 Primary Commercial Benchmarks Evaluated:
+- 🌐 **Total Website Sessions:** `472,871`
+- 🛍️ **Total Completed Orders:** `32,313`
+- 💵 **Net Audited Revenue:** `$1,853,171` *(Gross Revenue: $1,938,510 less $85,338 refunds / 4.4% refund rate)*
+- 📈 **Lifetime Conversion Rate (CVR):** `6.83%` *(Grew from 3.19% to peak at 8.70%)*
+- 🏷️ **Net Average Order Value (AOV):** `$57.35` *(Evolved from $49.16 to $63.12)*
+- ⚡ **Net Revenue Per Session (RPS):** `$3.92` *(Scaled from $1.57 to $5.28)*
 
 ---
 
 ## 🎯 Key Business Questions & Strategic Insights
 
 ### 1. What is the trend in website sessions and order volume?
-- **Insight:** Traffic and orders demonstrated exponential growth. Monthly sessions expanded from **1,879** to peak at **29,722**, while monthly orders grew from **60** to **2,314**. 
-- **Methodology Note:** Data line trends exclude partial cutoff months (March 2012 & March 2015) to eliminate false "cliff drop" visualization effects.
+> **Executive Insight:** Traffic and orders demonstrated exponential growth. Monthly sessions expanded from **1,879** to peak at **29,722**, while monthly orders grew from **60** to **2,314**.
 
-![Sessions and Order Volume Trend](assets/01-sessions-orders-trend.png)
+<div align="center">
+  <img src="assets/01-sessions-orders-trend.png" width="100%" alt="Sessions and Order Volume Trend" style="border-radius: 10px; border: 1px solid #30363d;" />
+</div>
+
+*Methodology Note: Data line trends exclude partial cutoff months (March 2012 & March 2015) to eliminate false "cliff drop" visualization effects.*
 
 ---
 
 ### 2. What is the session-to-order conversion rate? How has it trended?
-- **Insight:** CVR more than doubled over the platform lifecycle—rising from **3.19%** in early 2012 to **8.7%** in early 2015.
-- **Drivers:** Continuous conversion funnel optimization, mobile UI improvements, and cross-selling product line expansions.
+> **Executive Insight:** CVR more than doubled over the platform lifecycle—rising from **3.19%** in early 2012 to **8.70%** in early 2015, driven by landing page testing and checkout funnel optimization.
 
-![Conversion Rate Trend](assets/02-conversion-rate-trend.png)
+<div align="center">
+  <img src="assets/02-conversion-rate-trend.png" width="100%" alt="Conversion Rate Trend" style="border-radius: 10px; border: 1px solid #30363d;" />
+</div>
 
 ---
 
 ### 3. Which marketing channels have been most successful?
-- **Volume Leader:** `gsearch (nonbrand)` is the primary acquisition engine, generating **$1,074,110 Net Revenue** (58.0% of total company revenue).
-- **High-Intent Efficiency:** Brand search channels (`gsearch brand` and `bsearch brand`) achieved industry-leading conversion rates exceeding **8.5%**.
-- **Compounding Brand Equity:** Unpaid channels (`Direct Type-In` and `Organic Search`) generated combined net revenues exceeding **$355,000**, reflecting strong brand retention.
+> **Volume Leader:** `gsearch (nonbrand)` is the primary acquisition engine, generating **$1,074,110 Net Revenue** (58.0% of total company revenue).  
+> **Brand Retention:** Unpaid channels (`Direct Type-In` and `Organic Search`) generated combined net revenues exceeding **$355,000**, reflecting compounding brand equity.
 
-![Marketing Channels Performance](assets/03-marketing-channels-performance.png)
+<div align="center">
+  <img src="assets/03-marketing-channels-performance.png" width="100%" alt="Marketing Channels Performance" style="border-radius: 10px; border: 1px solid #30363d;" />
+</div>
 
 ---
 
 ### 4. How has revenue per order (AOV) and revenue per session (RPS) evolved?
-- **AOV Growth:** Net Average Order Value grew from **$49.16** to **$63.12**, accelerated by adding product cross-sells and bundles.
-- **RPS Growth:** Net Revenue Per Session surged from **$1.57** to **$5.28**, proving compounding monetization efficiency for every incoming site visitor.
+> **Monetization Scaling:** Net AOV grew from **$49.16** to **$63.12** due to product cross-selling, while Net RPS surged from **$1.57** to **$5.28**, proving strong traffic monetization efficiency.
 
-![AOV and RPS Dual Axis Growth](assets/04-aov-rps-growth.png)
+<div align="center">
+  <img src="assets/04-aov-rps-growth.png" width="100%" alt="AOV and RPS Dual Axis Growth" style="border-radius: 10px; border: 1px solid #30363d;" />
+</div>
 
 ---
 
-## 🛠️ Project Architecture & File Structure
+## 🔍 Financial Auditing & Data Pipeline Rigor
+
+1. **Net Revenue Financial Audit:** Integrates `order_item_refunds.csv` to deduct $85,338 in customer refunds from gross sales, delivering true Net Revenue figures ($1,853,171).
+2. **Dual-Axis Visualization Alignment:** Placed AOV ($44–$64) and RPS ($1.5–$5.5) on separate, synchronized Y-axes to prevent metric scale flattening.
+3. **Partial Month Censoring Corrections:** Isolates complete operating months (`2012-04` through `2015-02`) for time-series trendlines to prevent distorted conclusions.
+4. **Mobile UX Formatting:** Converted channel attribution charts into horizontal bar formats (`indexAxis: 'y'`) and formatted financial tables for responsive viewports.
+
+---
+
+## 🛠️ Repository Architecture
 
 ```text
 .
-├── assets/                          # Dashboard screenshots and GIF demos
+├── assets/                          # Screenshots and demo GIFs
 │   ├── dashboard-demo.gif
 │   ├── 00-KPIs.png
 │   ├── 01-sessions-orders-trend.png
@@ -90,27 +140,17 @@ Over a 3-year operating period (**April 2012 – February 2015**), the platform 
 │       └── website_sessions.csv
 ├── a.py                             # CLI Tool: Scan, extract, & profile datasets
 ├── analyze_fuzzy_factory.py         # Main analytics pipeline & HTML dashboard generator
-├── fuzzy_factory_report.html        # Interactive mobile-optimized HTML report
+├── fuzzy_factory_report.html        # Standalone interactive HTML dashboard
 ├── data_overview_report.md         # Auto-generated Markdown data profiling report
-├── .gitignore                       # Git ignore configuration
 └── README.md                        # Project documentation
 ```
-
----
-
-## 🔍 Data Pipeline & Quality Auditing
-
-1. **Net Revenue Financial Audit:** Integrates `order_item_refunds.csv` to deduct $85,338 in customer refunds from gross sales, giving leadership a true Net Revenue figure ($1,853,171).
-2. **Dual-Axis Visualization Fix:** Solved scale flattening in Chart.js by placing AOV ($44-$64) and RPS ($1.5-$5.5) on separate, dual Y-axes.
-3. **Partial Month Censoring Fix:** Isolates full operating months (`2012-04` through `2015-02`) for time-series trendlines to prevent distorted trend conclusions.
-4. **Mobile UX Optimization:** Transformed channel charts into horizontal bar formats (`indexAxis: 'y'`) and formatted currency tables for clean mobile viewport browsing.
 
 ---
 
 ## ⚡ How to Run the Project
 
 ### 1. Prerequisites
-Ensure Python 3.8+ and Pandas are installed:
+Ensure Python 3.8+ and `pandas` are installed:
 ```bash
 pip install pandas
 ```
@@ -118,27 +158,36 @@ pip install pandas
 ### 2. Execution Modes via `a.py` (CLI Tool)
 - **Mode 1 (Scan Directory):**
   ```bash
-  python a.py 1
+  python3 a.py 1
   ```
 - **Mode 2 (Extract Archives into Folders):**
   ```bash
-  python a.py 2
+  python3 a.py 2
   ```
 - **Mode 3 (Automated Data Profiling):**
   ```bash
-  python a.py 3
+  python3 a.py 3
   ```
 
 ### 3. Generate Interactive HTML Dashboard
 Run the main analytics engine:
 ```bash
-python analyze_fuzzy_factory.py
+python3 analyze_fuzzy_factory.py
 ```
-Open `fuzzy_factory_report.html` in any web or mobile browser to view the interactive dashboard.
+Open `fuzzy_factory_report.html` (or `index.html`) in any desktop or mobile browser.
 
 ---
 
-## 📜 License & Credits
+## 👤 Author & Contact
 
-- **Dataset Source:** [Maven Analytics](https://mavenanalytics.io/) (Public Domain).
-- **Dashboard Stack:** Python, Pandas, Tailwind CSS, Chart.js.
+**Aly Hossam**  
+*Data Analytics Engineer | Building 100% Offline, Secure Executive Dashboards*
+
+- 💼 **LinkedIn:** [linkedin.com/in/aly-hossam](https://linkedin.com/in/aly-hossam)
+- 🛒 **Gumroad:** [alyhossam.gumroad.com](https://alyhossam.gumroad.com)
+- 📧 **Email:** `aly.hossam.2002@gmail.com`
+
+---
+<div align="center">
+  <sub>Dataset Source: Public Domain Maven Analytics. Built for E-Commerce Data Analytics Portfolio.</sub>
+</div>
