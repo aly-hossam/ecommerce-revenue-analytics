@@ -1,14 +1,15 @@
+
 <div align="center">
 
   # 🧸 Maven Fuzzy Factory — E-Commerce Revenue & Traffic Analytics
-  ### Audited Financial Pipeline & Mobile-Optimized Executive HTML Dashboard
+  ### Automated E-Commerce Data Pipeline & Mobile-Optimized Executive HTML Dashboard
   
   [![Live Interactive Dashboard](https://img.shields.io/badge/🚀_LIVE_DEMO-Launch_Interactive_Dashboard-emerald?style=for-the-badge&logo=githubpages&logoColor=white)](https://aly-hossam.github.io/ecommerce-revenue-analytics/)
 
   <p align="center">
     <a href="#-executive-summary--key-kpis">Executive Summary</a> •
     <a href="#-key-business-questions--strategic-insights">Strategic Insights</a> •
-    <a href="#-financial-auditing--data-pipeline">Financial Auditing</a> •
+    <a href="#-data-pipeline--quality-logic">Data Pipeline Logic</a> •
     <a href="#-repository-architecture">Architecture</a> •
     <a href="#-how-to-run-the-project">How to Run</a>
   </p>
@@ -19,7 +20,7 @@
     <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/Chart.js_v4-FF6384?style=flat-square&logo=chart.js&logoColor=white" alt="Chart.js" />
-    <img src="https://img.shields.io/badge/Financial_Audit-Net_Revenue_Audited-emerald?style=flat-square" alt="Financial Audit" />
+    <img src="https://img.shields.io/badge/Data_Pipeline-Net_Revenue_Calculated-emerald?style=flat-square" alt="Net Revenue Pipeline" />
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
   </p>
 
@@ -31,7 +32,7 @@
 
 An executive-level data analytics pipeline evaluating web traffic, conversion funnels, marketing channel ROI, and unit economics for **Maven Fuzzy Factory** (an e-commerce retailer). 
 
-This project features an automated Python data pipeline, net revenue financial auditing (deducting customer refunds), and a mobile-optimized **Interactive HTML Executive Dashboard** (`fuzzy_factory_report.html`).
+This project features an automated Python data pipeline, net revenue reconciliation (deducting customer refunds from gross sales), and a mobile-optimized **Interactive HTML Executive Dashboard** (`fuzzy_factory_report.html`).
 
 ---
 
@@ -62,7 +63,7 @@ Over a 3-year operating period (**April 2012 – February 2015**), the platform 
 ### 🎯 Primary Commercial Benchmarks Evaluated:
 - 🌐 **Total Website Sessions:** `472,871`
 - 🛍️ **Total Completed Orders:** `32,313`
-- 💵 **Net Audited Revenue:** `$1,853,171` *(Gross Revenue: $1,938,510 less $85,338 refunds / 4.4% refund rate)*
+- 💵 **Net Revenue:** `$1,853,171` *(Gross Revenue: $1,938,510 less $85,338 refunds / 4.4% refund rate)*
 - 📈 **Lifetime Conversion Rate (CVR):** `6.83%` *(Grew from 3.19% to peak at 8.70%)*
 - 🏷️ **Net Average Order Value (AOV):** `$57.35` *(Evolved from $49.16 to $63.12)*
 - ⚡ **Net Revenue Per Session (RPS):** `$3.92` *(Scaled from $1.57 to $5.28)*
@@ -110,12 +111,12 @@ Over a 3-year operating period (**April 2012 – February 2015**), the platform 
 
 ---
 
-## 🔍 Financial Auditing & Data Pipeline Rigor
+## 🔍 Data Pipeline & Quality Logic
 
-1. **Net Revenue Financial Audit:** Integrates `order_item_refunds.csv` to deduct $85,338 in customer refunds from gross sales, delivering true Net Revenue figures ($1,853,171).
+1. **Net Revenue Reconciliation:** Integrates `order_item_refunds.csv` to deduct $85,338 in customer refunds from gross sales, calculating true Net Revenue ($1,853,171).
 2. **Dual-Axis Visualization Alignment:** Placed AOV ($44–$64) and RPS ($1.5–$5.5) on separate, synchronized Y-axes to prevent metric scale flattening.
 3. **Partial Month Censoring Corrections:** Isolates complete operating months (`2012-04` through `2015-02`) for time-series trendlines to prevent distorted conclusions.
-4. **Mobile UX Formatting:** Converted channel attribution charts into horizontal bar formats (`indexAxis: 'y'`) and formatted financial tables for responsive viewports.
+4. **Mobile UX Formatting:** Converted channel attribution charts into horizontal bar formats (`indexAxis: 'y'`) and formatted currency tables for responsive viewports.
 
 ---
 
